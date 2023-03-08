@@ -10,4 +10,4 @@ if ld > 5:
 elif ld == 0:
     print("{} {} is {} and is 0".format(str, number, ld))
 elif ld < 6 and not 0:
-    print("{} {} is {} and is less than 6 and not 0".format(str, number, ld)) 
+    print("{} {} is {} and is less than 6 and not 0".format(str, number, ld))
