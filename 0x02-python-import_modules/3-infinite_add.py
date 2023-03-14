@@ -5,7 +5,6 @@ if __name__ == "__main__":
     argsSum = 0
     argsLen = len(argv) - 1
 
-    if argsLen >= 1:
-        for args in range(1, argsLen + 1):
-            argsSum += int(argv[args])
-        print("{}".format(argsSum))
+    for args in range(1, argsLen + 1):
+        argsSum += int(argv[args])
+    print("{}".format(argsSum))
