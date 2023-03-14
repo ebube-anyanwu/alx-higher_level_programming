@@ -8,4 +8,4 @@ if __name__ == "__main__":
     if argsLen >= 1:
         for args in range(1, argsLen + 1):
             argsSum += int(argv[args])
-        print(argsSum)
+        print("{}".format(argsSum))
